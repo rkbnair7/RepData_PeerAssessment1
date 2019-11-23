@@ -49,7 +49,7 @@ plot(stepsByInterval$interval, stepsByInterval$steps, type='l',
 
 ```{r echo=TRUE}
 
-Maximum_steps_no <- which.max(steps_by_interval$steps)
+Maximum_steps_no <- which.max(stepsByInterval$steps)
 
 stepsByInterval[Maximum_steps_no, ]
 ```
